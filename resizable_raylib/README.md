@@ -374,8 +374,8 @@ configured because we require the `Module.cwrap` function.
 Recompiling, everything should work as expected and the window should
 resize on web!
 
-If you want to have the canvas completely fill the
-browser window and eliminate any white edges, simply add the
+If we want to have the canvas completely fill the
+browser window and eliminate any white edges, we can simply add the
 following header tag to `static/index.html`:
 
 ```HTML
