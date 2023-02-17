@@ -6,7 +6,7 @@ applications compile to run in a web page. First, we'll get a basic
 working and look at how to tell the browser what to do with
 stdout and stderr. Then we'll look at getting more general
 file i/o working on the web. Finally, we'll get a full graphical app
-working with [Raylib][1], matching native behavior as much as possible.
+working with [Raylib][1], matching native behavior as close as possible.
 
 In order to follow along you will first need a C
 compiler; I will use [Clang][5], but feel free to use whatever you
