@@ -134,6 +134,7 @@ element:
 
 ```HTML
 <!-- static/hello.js -->
+
 <html>
     <body>
         <canvas id="canvas"></canvas>
