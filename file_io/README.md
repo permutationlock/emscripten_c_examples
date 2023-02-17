@@ -4,7 +4,7 @@ When running a native application you have a local file system to
 use for reading and writing data. Emscripten provides a way to
 emulate a somewhat limited version of this functionality.
 
-Starting from the basic hello emcc project created above,
+Starting from the basic hello emcc project created earlier,
 let us modify `main.c` as follows:
 
 ```C
