@@ -298,6 +298,7 @@ If we call `make` with our updated `Makefile` and look through
 
 ```JavaScript
 // static/hello.js | line 8451
+
 /**
  * @param {string=} returnType
  * @param {Array=} argTypes
