@@ -23,9 +23,9 @@ corresponds to the end result of an example from the article. The
 `README.md` file in each directory contains the corresponding article
 section. The order of sections is as follows:
 
- 1. `hello_emcc`
- 2. `file_io`
- 3. `resizable_raylib`
+ 1. [hello\_emcc](https://github.com/permutationlock/emscripten_c_examples/tree/main/hello_emcc)
+ 2. [file\_io](https://github.com/permutationlock/emscripten_c_examples/tree/main/file_io)
+ 3. [resizable\_raylib](https://github.com/permutationlock/emscripten_c_examples/tree/main/resizable_raylib)
 
 [1]: https://github.com/raysan5/raylib
 [3]: https://www.gnu.org/software/make/
