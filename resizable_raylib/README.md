@@ -247,17 +247,17 @@ void update() {
 
 Making and re-running both the native and web builds, we should see
 that the native window is now resizable. Unfortunately, the web app
-remains unchanged.
+still doesn't resize.
 
 The first
 issue is that the "window" in the context of the
-web application is the canvas, not the browser window. Unfortunately,
-simply making the canvas resize with the page does not fix the
+web application is the canvas, not the browser window. Simply making the canvas resize with the page does not fix the
 problem as
-Emscripten will still not emulate the canvas resizing as a native
+Emscripten will not recognize the canvas resizing as a native
 window resize.
 
-The solution is to do things manually by utilizing another feature of
+The solution is to do things manually by taking advantage of another
+feature of
 Emscripten: [cwrap][4]. We will first need to create a C function
 that should be called whenever the canvas is resized:
 
