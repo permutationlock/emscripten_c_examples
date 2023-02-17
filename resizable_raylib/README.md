@@ -204,6 +204,7 @@ we simply need to add the following line just before calling
 // ...
 
     SetConfigFlags(FLAG_WINDOW_RESIZABLE);
+    InitWindow(300, 300, "hello, raylib!");
 
 // ...
 ```
