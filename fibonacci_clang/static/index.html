@@ -1,0 +1,11 @@
+<html>
+<script>
+WebAssembly.instantiateStreaming(
+    fetch("fibonacci.wasm"), {}).then(
+        (obj) =>  console.log(
+            "The 6th Fibonacci number is " +
+            obj.instance.exports.fibonacci(6)
+        )
+    );
+</script>
+</html>
