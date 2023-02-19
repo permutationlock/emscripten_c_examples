@@ -2,7 +2,7 @@
 
 A collection of examples using [clang][5] and [Emscripten][6] to
 build C projects targeting the web. Examples were pulled from an
-[article I wrote][9].
+[article I wrote][11].
 
 ## Dependencies
 
@@ -18,4 +18,5 @@ and link the projects. The web server for testing the projects uses
 [8]: https://git-scm.com/
 [9]: https://lld.llvm.org/
 [10]: https://clang.llvm.org/
+[11]: https://musing.permutationlock.com/posts/blog-emscripten_c_applications.html
 
