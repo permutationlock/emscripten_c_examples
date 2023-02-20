@@ -9,6 +9,7 @@ WFLAGS = -lidbfs.js \
 all: native web
 
 native: main.c
+	mkdir files
 	$(CC) main.c -o pfiles $(FLAGS)
 
 web: main.c
