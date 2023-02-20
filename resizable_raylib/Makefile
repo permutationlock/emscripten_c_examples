@@ -14,10 +14,10 @@ WFLAGS = -s USE_GLFW=3 -s ASYNCIFY \
 all: native web
 
 native: main.c
-	$(CC) main.c -o hello $(FLAGS) $(LIB) $(INCLUDE) $(LOAD) 
+	$(CC) main.c -o raysize $(FLAGS) $(LIB) $(INCLUDE) $(LOAD) 
 
 web: main.c
-	$(EMCC) main.c -o static/hello.js $(WFLAGS) $(WLIB) $(INCLUDE) $(LOAD) 
+	$(EMCC) main.c -o static/raysize.js $(WFLAGS) $(WLIB) $(INCLUDE) $(LOAD) 
 
 clean:
-	rm hello static/hello.js static/hello.wasm
+	rm raysize static/raysize.js static/raysize.wasm
