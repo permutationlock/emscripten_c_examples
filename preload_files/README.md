@@ -1,6 +1,6 @@
-# File I/O
+# Preloading files
 
-A simple emscripten file example.
+A simple emscripten file input example.
 
 To build:
 
