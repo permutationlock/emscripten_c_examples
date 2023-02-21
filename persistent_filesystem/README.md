@@ -17,3 +17,5 @@ go run server.go
 
 Visit [localhost:8081](http://localhost:8081/) and open the developer
 console to see the output.
+
+[1]: https://emscripten.org/docs/api_reference/Filesystem-API.html#filesystem-api-idbfs
